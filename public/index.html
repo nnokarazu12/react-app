@@ -25,28 +25,6 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
-    <script>
-      var myHeaders = new Headers();
-      myHeaders.append("Content-Type", "application/json");
-      var requestOptions = {
-                method: 'POST',
-                headers: myHeaders,
-                redirect: 'follow'
-            };
-      fetch("https://zh2is19bwl.execute-api.us-east-1.amazonaws.com/dev", requestOptions)
-            .then(response => response.text())
-            .then(result => alert(JSON.parse(result).body))
-            .catch(error => console.log('error', error));
-
-      const axios = require('axios');
-      axios.post('https://zh2is19bwl.execute-api.us-east-1.amazonaws.com/dev')
-      .then(function (response) {
-        console.log(response);
-      })
-      .catch(function (error) {
-        console.log(error);
-      });
-      </script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
