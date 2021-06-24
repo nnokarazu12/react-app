@@ -1,6 +1,6 @@
 
 function Button() {
-    return <button onclick="call()">Compare</button>;
+    return <button onClick={call}>Compare</button>;
 }
 
 export default Button;
