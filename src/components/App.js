@@ -11,7 +11,7 @@ function App() {
     return (
         <div>
             <h1>CompareFace API</h1>
-            <button onClick={call}>Compare</button>
+            <button onClick={call}>Show Results</button>
         </div>
     );
 }
