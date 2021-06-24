@@ -7,3 +7,5 @@ async function call() {
   const data = await response.json();
   console.log(data);
 }
+
+export default call;
