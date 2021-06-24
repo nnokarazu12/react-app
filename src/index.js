@@ -5,6 +5,6 @@ import Button from './components/Button';
 import './api/index';
 
 ReactDOM.render(
-  <Button onclick="call()"/>,
+  <Button/>,
   document.getElementById('root')
 );
