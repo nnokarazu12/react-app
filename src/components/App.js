@@ -1,6 +1,6 @@
 function App() {
     const axios = require('axios');
-    const url = "https://zh2is19bwl.execute-api.us-east-1.amazonaws.com/dev";
+    const url = "https://i9ayiuo2r0.execute-api.us-east-1.amazonaws.com/dev";
 
     async function call() {
     const response = await axios.post(url + "/v1/compare-list");
