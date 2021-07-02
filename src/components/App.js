@@ -4,7 +4,7 @@ function App() {
 
     async function call() {
     const response = await axios.post(url + "/v1/compare-list");
-    const data = await response.json();
+    const data = await response;
     console.log(data);
     }
 
